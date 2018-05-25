@@ -2,7 +2,8 @@
 2. Run **mvn clean install** to get the jar under target folder
 3. Create/Re-use the Dockerfile  similar to the one under this repo else refer to this [link](https://www.youtube.com/watch?v=FlSup_eelYE)
 4. Use the following commands to create and run the project as a docker image
-    - `docker build -t spring-docker .` ( run from the directory where the docker file is placed else provide the absolute path)
+    - `docker build -t spring-docker .` ( run from the directory where the docker file is placed else provide the absolute path. 
+      Use -f switch to add the filepath)
     -  Run the docker image
         `docker run -p 8080:8080 spring-docker`
     - If required use the container id to enter into the docker shell
