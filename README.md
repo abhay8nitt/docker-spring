@@ -2,10 +2,10 @@
 2. Run **mvn clean install** to get the jar under target folder
 3. Create/Re-use the Dockerfile  similar to the one under this repo else refer to this [link](https://www.youtube.com/watch?v=FlSup_eelYE)
 4. Use the following commands to create and run the project as a docker image
-    a) `docker build -t spring-docker .` ( run from the directory where the docker file is placed else provide the absolute path)
-    b) The output should look like
+    - `docker build -t spring-docker .` ( run from the directory where the docker file is placed else provide the absolute path)
+    - The output should look like
         Sending build context to Docker daemon  15.94MB
-        Step 1/4 : FROM openjdk:8
+        `Step 1/4 : FROM openjdk:8
         8: Pulling from library/openjdk
         cc1a78bfd46b: Pull complete 
         6861473222a6: Pull complete 
@@ -30,19 +30,19 @@
         Removing intermediate container 5251e0107a79
          ---> a3067a0d1ed4
         Successfully built a3067a0d1ed4
-        Successfully tagged spring-docker:latest
-    c)  Run the docker image
+        Successfully tagged spring-docker:latest`
+    -  Run the docker image
         `docker run -p 8080:8080 spring-docker`
-    d) If required use the container id to enter into the docker shell
+    - If required use the container id to enter into the docker shell
         `docker exec -it a3067a0d1ed4 /bin/bash`
 5.  From the browser or postman execute commands to do CRUD operations
-    a) GET localhost:8080/students/all
-    b) GET localhost:8080/students/1
-    c) POST localhost:8080/students/
-            Body::
+    - GET localhost:8080/students/all
+    - GET localhost:8080/students/1
+    - POST localhost:8080/students/
+            `Body::
             {
                     "id": 23,
                     "name": "Student23",
                     "course": "JavaScript"
-            }            
+            } `           
         
