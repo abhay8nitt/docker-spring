@@ -1,0 +1,15 @@
+Allows us to create Java web app quickly
+Spring Boot
+Spring Data
+Spring JPA
+Thymeleaf - templating framework
+Spting Security
+
+1. REST embraces the precepts of the web itself, and embraces its architecture, benefits and all
+2. Application security (encryption and authentication), Caching is built into the protocol. Service routing
+3. Constraint on HTTP protocol
+4. SOAP is not Restful, It can be used over JMS, It is just HTTP-aware
+5. Resource(/students), Verb- GET, PUT etc, Hypermedia
+6. Spring Boot removes a lot of the boilerplate typical of application development
+7. Web/JPA/DB(H2, Postgres, etc)
+8.
