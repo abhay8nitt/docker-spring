@@ -32,7 +32,7 @@
         Successfully built a3067a0d1ed4
         Successfully tagged spring-docker:latest
     c)  Run the docker image
-        `docker run test-spring`
+        `docker run -p 8080:8080 spring-docker`
     d) If required use the container id to enter into the docker shell
         `docker exec -it a3067a0d1ed4 /bin/bash`
 5.  From the browser or postman execute commands to do CRUD operations
