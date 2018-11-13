@@ -1,0 +1,28 @@
+{
+  "appliance": {
+    "avg_processing_time_in_sec": {
+      "0025905C7072": 0.0014338
+    },
+    "count": {
+      "0025905C7072": 1
+    },
+    "payload_size_in_bytes": {
+      "0025905C7072": 1637
+    }
+  },
+  "customerID": {
+    "avg_processing_time_in_sec": {
+      "901461900": 0.0014338
+    },
+    "count": {
+      "901461900": 1
+    },
+    "payload_size_in_bytes": {
+      "901461900": 1637
+    }
+  },
+  "response_code_count": {
+    "200": 1
+  },
+  "timestamp": "2018-08-15T06:39:20.1886368Z"
+}

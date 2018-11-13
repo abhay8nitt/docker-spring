@@ -18,5 +18,4 @@ public class ApacheKafkaWebController {
         kafkaTemplate.send("sometopic", message);
         return "Message sent to the Kafka Topic java_in_use_topic Successfully";
     }
-
 }
