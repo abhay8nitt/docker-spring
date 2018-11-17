@@ -19,4 +19,7 @@
                     "name": "Student23",
                     "course": "JavaScript"
             } `           
-        
+7. Spring boot security is enabled by adding the following dependency, the autoconfiguration detects
+   and adds a default security layer. The logs can be checked for the default security password generated. The default username is 'user'    and the password is thed default security password.
+   
+8. To disable auto configuration add an annontation @EnableAutoConfiguration(exclude={add the security class here})
